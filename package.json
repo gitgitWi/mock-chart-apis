@@ -4,7 +4,8 @@
   "description": "AWS Lambda 기반 줌투자 Mock Chart APIs",
   "main": "serverless.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "yarn sls deploy",
+    "serve": "yarn sls invoke local"
   },
   "engines": {
     "node": ">=14.15.0"
