@@ -25,4 +25,7 @@ yarn deploy
 
 ```bash
 yarn serve -f {함수명}
+
+# ex.
+yarn serve -f hello --path src/functions/hello/mock.json
 ```
