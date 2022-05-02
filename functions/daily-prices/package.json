@@ -1,0 +1,18 @@
+{
+  "name": "daily-prices",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:dev": "node index.mjs"
+  },
+  "packageManager": "yarn@1.22.18",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.95",
+    "@types/better-sqlite3": "^7.5.0",
+    "@types/node": "^17.0.31",
+    "aws-lambda": "^1.0.7",
+    "better-sqlite3": "^7.5.1"
+  }
+}
